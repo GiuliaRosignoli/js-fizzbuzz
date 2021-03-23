@@ -24,12 +24,15 @@ for (var i = 0; i < numbers.length; i++) {
 
  for (var i=1; i <= 100; i++) {
     if( numbers[i] % 3 === 0 && numbers[i] % 5 === 0 ) {
+        console.log(numbers[1]);
         document.getElementById("FizzBuzz").innerHTML = "FizzBuzz";
     } else {
         if( numbers[i] % 3 === 0 ) {
+            console.log(numbers[1]);
             document.getElementById("FizzBuzz").innerHTML ="Fizz";
         }
         if( numbers[i] % 5 === 0 ) {
+            console.log(numbers[1]);
             document.getElementById("FizzBuzz").innerHTML = "Buzz";
         }
     }
