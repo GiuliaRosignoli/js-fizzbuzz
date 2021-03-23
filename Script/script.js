@@ -22,7 +22,7 @@ for (var i = 0; i < numbers.length; i++) {
 
  // Find the multiple of 3 and 5 and of them both
 
- for (var i=1; i <= 100; i++) {
+ for (var i=0; i <= 100; i++) {
     if( numbers[i] % 3 === 0 && numbers[i] % 5 === 0 ) {
         console.log(numbers[i] + " FizzBuzz");
         document.getElementById("FizzBuzz").innerHTML = "FizzBuzz";
@@ -34,6 +34,8 @@ for (var i = 0; i < numbers.length; i++) {
         if( numbers[i] % 5 === 0 ) {
             console.log(numbers[i] + " Buzz");
             document.getElementById("FizzBuzz").innerHTML = "Buzz";
+        } else {
+            console.log(numbers[i]);
         }
-    }
+    } 
  }
