@@ -27,10 +27,10 @@ for (var i = 0; i < numbers.length; i++) {
         document.getElementById("FizzBuzz").innerHTML = "FizzBuzz";
     } else {
         if( numbers[i] % 3 === 0 ) {
-            document.getElementById("Fizz").innerHTML ="Fizz";
+            document.getElementById("FizzBuzz").innerHTML ="Fizz";
         }
         if( numbers[i] % 5 === 0 ) {
-            document.getElementById("Buzz").innerHTML = "Buzz";
+            document.getElementById("FizzBuzz").innerHTML = "Buzz";
         }
     }
 }​
