@@ -23,7 +23,7 @@ for (var i = 0; i < numbers.length; i++) {
  // Find the multiple of 3 and 5 and of them both
 
  for (var i=1; i <= 100; i++) {
-    if( numbers[i] % 3 && numbers[i] % 5 ) {
+    if( numbers[i] % 3 === 0 && numbers[i] % 5 === 0 ) {
         document.getElementById("FizzBuzz").innerHTML = "FizzBuzz";
     } else {
         if( numbers[i] % 3 === 0 ) {
